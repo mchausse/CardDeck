@@ -5,7 +5,7 @@ package com.mchausse.model;
  * 54 (with jokers) cards of a deck.
  * 
  *
- * @author Maxime
+ * @author Maxime Chaussé
  * @date March 31, 2020
  */
 public class Card {
@@ -58,8 +58,8 @@ public class Card {
         return this.faceUp;
     }
     
-    public Card turn() {
-        this.faceUp = true;
+    public Card flip() {
+        this.faceUp = !this.faceUp;
         return this;
     }
     
@@ -110,6 +110,7 @@ public class Card {
                 return "Unknown";
         }
     }
+    
     private String assignColor(String type) {
         if("SPADES".equals(type.toUpperCase()) || "CLUBS".equals(type.toUpperCase())) {
             return "BLACK";
