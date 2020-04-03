@@ -4,7 +4,7 @@ import com.mchausse.model.Card;
 
 /**
  * 
- * @author Maxime
+ * @author Maxime Chaussé
  * @date March 31, 2020
  */
 public class TestCard {
@@ -28,7 +28,7 @@ public class TestCard {
                 i=0;
             }
             System.out.print(c+"\t");
-            c.turn();
+            c.flip();
             i++;
         }
         
