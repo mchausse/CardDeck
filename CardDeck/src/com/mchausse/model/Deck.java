@@ -149,7 +149,6 @@ public class Deck {
                 i=0;
             }
             string+= c+"\t";
-            c.flip();
             i++;
         }
         return string;
