@@ -4,7 +4,10 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Git/CardDeck/CardDeck/src/com/mchausse/model/Card.java</file>
+            <file>file:/C:/Git/CardDeck/CardDeck/src/com/mchausse/model/CardsIcons.java</file>
+            <file>file:/C:/Git/CardDeck/CardDeck/src/com/mchausse/testModel/TestDeck.java</file>
             <file>file:/C:/Git/CardDeck/CardDeck/src/com/mchausse/testModel/TestCard.java</file>
+            <file>file:/C:/Git/CardDeck/CardDeck/src/com/mchausse/model/Deck.java</file>
         </group>
     </open-files>
 </project-private>
